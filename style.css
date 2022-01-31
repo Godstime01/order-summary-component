@@ -1,0 +1,122 @@
+*{box-sizing: border-box;}
+body{
+    background-color:hsl(225, 100%, 94%);
+    background-image:url('images/pattern-background-desktop.svg');
+    background-size: 100% 60%;
+    background-repeat: no-repeat;
+    /* background-position: center center; */
+    font-family:'Red Hat Display';
+    font-size: 16px;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+}
+h1{
+    font-weight: 900;
+    color: hsl(223, 47%, 23%);
+}
+.card{
+    width:450px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 150px auto;
+    overflow: hidden;
+    box-shadow:2px 2px 20px 1px hsla(0, 6%, 41%, 0.653);
+}
+#img{
+    width:100%;
+    max-width: 100%;
+}
+.inner-text{
+    background-color: hsl(2, 2%, 100%);
+    text-align: center;
+    padding:40px;
+}
+.inner-text p{
+    color:hsla(0, 6%, 41%, 0.653);
+    font-size: 20px;
+    font-weight: 500;
+    /* font-weight: bold; */
+}
+.plan{
+    background-color: hsl(225, 100%, 98%);
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content:space-between;
+    justify-content: space-between;
+    -webkit-align-items:center;
+    align-items: center;
+    border-radius: 20px;
+    padding:20px;
+}
+.plan-left{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.plan a{
+    color:hsl(245, 75%, 52%);
+    margin-left:auto;
+    font-size: 20px;
+    font-weight: 700;
+}
+.plan-detail{
+    margin-left:10px; 
+}
+.plan-detail h3{
+    margin-bottom: 2px;
+    font-weight: 700;
+}
+.plan-detail p{
+    margin-top: 4px;
+    color:hsla(0, 6%, 41%, 0.653);
+    text-align: left;
+    font-weight: 500;
+}
+#chg:hover{
+    text-decoration: none;
+}
+
+.btn{
+    background-color: hsl(245, 75%, 52%);
+    color: hsl(2, 2%, 100%);
+    padding: 15px;
+    width: 100%;
+    margin:20px 0;
+    max-width: 100%;
+    border-radius: 13px;
+    font-size: 15px;
+    font-weight: 700;
+    display: block;
+    border:none;
+}
+.btn:hover{
+    cursor: pointer;
+    opacity: .7;
+}
+
+a#cancel-order{
+    color: hsla(0, 6%, 41%, 0.653);
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 18px;
+}
+a#cancel-order:hover{
+    color: black;
+}
+
+
+.attribution{
+    font-size: 11px;
+    text-align: center;
+    position: sticky;
+    
+}
+
+.attribution a {
+color: hsl(228, 45%, 44%);
+}
